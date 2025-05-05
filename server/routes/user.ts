@@ -5,7 +5,7 @@ import { passwordRegex } from "@julseb-lib/utils"
 import { UserModel } from "models"
 import { SALT_ROUNDS, TOKEN_SECRET, jwtConfig } from "utils"
 import { COMMON_TEXTS, SERVER_PATHS } from "data"
-import type { EditAccountFormData, EditPasswordFormData } from "data/types"
+import type { EditAccountFormData, EditPasswordFormData } from "types"
 
 const router = Router()
 

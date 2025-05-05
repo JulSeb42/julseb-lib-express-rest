@@ -10,7 +10,7 @@ import type {
 	SignupFormData,
 	LoginFormData,
 	ForgotPasswordFormData,
-} from "data/types"
+} from "types"
 
 const router = Router()
 

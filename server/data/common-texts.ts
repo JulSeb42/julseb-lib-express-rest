@@ -1,5 +1,5 @@
 import { SITE_DATA } from "./site-data"
-import type { User } from "./types"
+import type { User } from "../types"
 
 export const COMMON_TEXTS = {
 	EMAIL_SIGNUP_TITLE: `Verify your account on ${SITE_DATA.NAME}`,

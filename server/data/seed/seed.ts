@@ -10,7 +10,7 @@ import {
 	getRandom,
 } from "@julseb-lib/utils"
 import { UserModel } from "models"
-import type { User } from "data/types"
+import type { User } from "types"
 
 // Hash password
 const password = "Password42"
