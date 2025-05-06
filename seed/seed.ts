@@ -9,8 +9,8 @@ import {
 	generateNumbers,
 	getRandom,
 } from "@julseb-lib/utils"
-import { UserModel } from "models"
-import type { User } from "types"
+import { UserModel } from "../server/models"
+import type { User } from "../server/types"
 
 // Hash password
 const password = "Password42"
@@ -64,5 +64,5 @@ UserModel.insertMany([realUser, ...fakeUsers])
 	})
 	.catch(err => console.log(err))
 
-// Run `yarn tsx server/data/seed/seed.ts` from root folder
+// Run `yarn tsx seed/seed.ts` from root folder
 // or `yarn seed-users`
